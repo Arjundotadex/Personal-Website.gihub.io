@@ -1,11 +1,23 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    align-items: center;
+    background: linear-gradient(to bottom right, blue, rgb(151, 197, 238));
+    background-repeat: no-repeat;
+
 }
-.img{
-    align-items: center;
+
+h1 {
+    text-align: center;
+}
+
+.src {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
-    width: 200px;
+    width: 250px;
     border-radius: 50%;
+}
+.card-group{
+    color: inherit;
 }
