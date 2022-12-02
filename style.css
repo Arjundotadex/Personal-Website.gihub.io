@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.img{
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
