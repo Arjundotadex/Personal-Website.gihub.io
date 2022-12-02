@@ -1,22 +1,28 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, blue, rgb(151, 197, 238));
+    background: linear-gradient(to bottom right, rgb(84, 84, 145), rgb(151, 197, 238));
     background-repeat: no-repeat;
 
 }
 
 h1 {
-    text-align: center;
+    left: 37%;
+    position: absolute;
+    top: 10%;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .src {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200px;
-    width: 250px;
+    position: relative;
+    top: 10%;   
+    height: 90px;
+    width: 80px;
     border-radius: 50%;
+    left: 30px;
+    top: 30px;
 }
 .card-group{
     color: inherit;
