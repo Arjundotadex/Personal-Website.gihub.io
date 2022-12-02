@@ -1,4 +1,4 @@
-# BlogWeb
+# Personal Website
 This Website is Made with the use of only html,css, Javascript, so Any beginner person can contribute in this project.
 
   
