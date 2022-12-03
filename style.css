@@ -1,5 +1,45 @@
-.body{
-    display: block;
-    max-width: 100%;
-    height: 100px !important;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(64, 99, 180);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 270px;
+    height: 440px;
+    margin: 10px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+
+}
+
+.twitter {
+    background-image: url(images/twitter.gif);
+}
+
+.github {
+    background-image: url(images/octocat.gif);
+}
+
+.linkedin {
+    background-image: url(images/linkedin.gif);
+}
+
+.instagram {
+    background-image: url(images/instagram.gif);
 }
