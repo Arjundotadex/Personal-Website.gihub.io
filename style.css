@@ -10,7 +10,8 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
+    margin-top: 200px;
+    margin-left: 190px;
     flex-wrap: wrap;
 }
 
@@ -56,7 +57,15 @@ body {
 
 a{
     text-decoration: none;
-    color: inherit;
+    color: inherit ;
+}
+
+.card:hover{
+    background-color: rgb(87, 108, 114);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all ls ease;
 }
 
 
