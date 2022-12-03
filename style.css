@@ -1,29 +1,5 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom right, rgb(84, 84, 145), rgb(151, 197, 238));
-    background-repeat: no-repeat;
-
-}
-
-h1 {
-    left: 37%;
-    position: absolute;
-    top: 10%;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.src {
-    position: relative;
-    top: 10%;   
-    height: 90px;
-    width: 80px;
-    border-radius: 50%;
-    left: 30px;
-    top: 30px;
-}
-.card-group{
-    color: inherit;
+.body{
+    display: block;
+    max-width: 100%;
+    height: 100px !important;
 }
