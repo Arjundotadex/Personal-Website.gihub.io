@@ -7,8 +7,15 @@
 body {
     background: rgb(64, 99, 180);
 }
+h1{
+    font-size: 40px;
+    font-size: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .container {
+    position: fixed;
     display: flex;
     margin-top: 200px;
     margin-left: 190px;
