@@ -11,13 +11,15 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
     background-color: white;
     width: 270px;
-    height: 440px;
+    height: 340px;
     margin: 10px;
+    border-radius: 15px;
 }
 
 .card-image {
@@ -25,6 +27,7 @@ body {
     height: 170px;
     margin-bottom: 15px;
     background-size: cover;
+    border-radius: 15px 15px 0 0 ;
 
 }
 
@@ -43,3 +46,17 @@ body {
 .instagram {
     background-image: url(images/instagram.gif);
 }
+.card p {
+    padding: 10px;
+}
+.card h2{
+    padding: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
