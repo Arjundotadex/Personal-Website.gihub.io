@@ -7,7 +7,7 @@
 body {
     background: rgb(64, 99, 180);
 }
-h1{
+h1,h2{
     font-size: 40px;
     font-size: bold;
     text-align: center;
@@ -17,7 +17,7 @@ h1{
 .container {
     position: absolute;
     display: flex;
-    margin-top: 200px;
+    margin-bottom: 200px;
     margin-left: 190px;
     flex-wrap: wrap;
 }
@@ -62,6 +62,9 @@ h1{
 }
 .mastodon {
     background-image: url(images/mastodon.jpg);
+}
+.dev {
+    background-image: url(images/dev.jpg);
 }
 
 .card p {
