@@ -60,6 +60,9 @@ h1{
 .discord {
     background-image: url(images/discord.gif);
 }
+.mastodon {
+    background-image: url(images/mastodon.jpg);
+}
 
 .card p {
     padding: 10px;
